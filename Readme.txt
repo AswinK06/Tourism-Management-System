@@ -39,6 +39,10 @@ Tourism-Management-System/
 ├── index.php
 └── ...
 
+yaml
+Copy
+Edit
+
 ---
 
 ## 🚀 Getting Started
@@ -64,6 +68,8 @@ Start Apache and MySQL from the control panel.
 
 Navigate to http://localhost/Tourism-Management-System in your browser.
 
+📸 Screenshots
+(Add screenshots here for homepage, booking form, and admin panel views)
 
 🔮 Future Enhancements
 📱 Add mobile app version
@@ -77,4 +83,3 @@ Navigate to http://localhost/Tourism-Management-System in your browser.
 🙋‍♂️ Author
 Aswin K
 🎓 BE Computer Science Engineering
-🔗 GitHub | 🌐 Portfolio | 💼 LinkedIn
