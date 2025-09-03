@@ -18,6 +18,7 @@ Admins can:
 
 👥 Handle user accounts through a secure dashboard
 
+
 ✨ Features
 
 🏝 Tour Package Listings – Browse destinations with details, images, and pricing
@@ -30,6 +31,7 @@ Admins can:
 
 📱 Responsive Design – Optimized for desktop, tablet, and mobile devices
 
+
 🛠 Tech Stack
 
 🎨 Frontend: HTML, CSS, JavaScript, Bootstrap
@@ -39,6 +41,7 @@ Admins can:
 🗄 Database: MySQL (RDBMS)
 
 🌐 Server: Apache (via XAMPP/WAMP)
+
 
 📁 Project Structure
 
@@ -55,6 +58,7 @@ Admins can:
 🖼 images/ → Static assets
 
 🏠 index.php → Landing page
+
 
 ⚙️ Installation & Setup
 
@@ -89,9 +93,11 @@ Place the project folder inside htdocs (XAMPP)
 
 Start Apache and MySQL in XAMPP
 
+
 Open in browser:
 
 http://localhost/Tourism-Management-System/
+
 
 🔮 Future Enhancements
 
@@ -103,10 +109,10 @@ http://localhost/Tourism-Management-System/
 
 📊 Analytics dashboard for admin
 
+
 🙋‍♂️ Author
 
 👨‍💻 Aswin K
 
 🎓 BE Computer Science Engineering
 
-🔗 GitHub Profile
