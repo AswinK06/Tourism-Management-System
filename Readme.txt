@@ -1,85 +1,86 @@
-# 🌍 Tourism Management System
+🧳 Tourism Management System (Wanderluxe)
 
-A full-stack web application built to modernize and simplify travel experiences for users and administrators. This platform allows users to browse tour packages, make bookings, and manage their travel plans, while admins can efficiently oversee destinations, user data, and bookings through a secure dashboard.
+A full-stack web application built to simplify travel booking for users and provide an efficient management dashboard for admins.
+Users can explore tour packages, register, and book trips, while admins can manage packages, users, and bookings securely.
 
-📁 **GitHub Repository**: [Tourism Management System](https://github.com/AswinK06/Tourism-Management-System)
+🚀 Features
 
----
+🏝 Tour Package Listings – Browse destinations with details, images, and pricing.
 
-## ✨ Features
+📝 Booking System – Users can book packages and view their bookings.
 
-- 🧳 **Tour Package Listings**: Users can browse available destinations and package details.
-- 📝 **Booking System**: Registered users can book packages directly from the site.
-- 🧑‍💼 **Admin Panel**: Admins can add/edit/delete packages, view bookings, and manage users.
-- 🔐 **User Authentication**: Secure login and registration system for both users and admins.
-- 📱 **Responsive Design**: Mobile-friendly and optimized for various screen sizes.
+🔐 User Authentication – Secure login and registration for users and admins.
 
----
+🧑‍💼 Admin Panel – Manage packages, view bookings, and handle user accounts.
 
-## 🛠️ Tech Stack
+📱 Responsive Design – Optimized for desktop, tablet, and mobile devices.
 
-| Technology     | Description               |
-|----------------|---------------------------|
-| HTML, CSS      | Frontend structure & style |
-| JavaScript     | Client-side interaction    |
-| PHP            | Backend logic              |
-| MySQL          | Database management        |
+🛠️ Tech Stack
 
----
+| Layer    | Technology                       |
+| -------- | -------------------------------- |
+| Frontend | HTML, CSS, JavaScript, Bootstrap |
+| Backend  | PHP (Procedural with PDO)        |
+| Database | MySQL (RDBMS)                    |
+| Server   | Apache (via XAMPP/WAMP)          |
 
-## 📁 Project Structure
+📁 Project Structure
 
 Tourism-Management-System/
-├── admin/
-├── includes/
-├── user/
-├── css/
-├── js/
-├── images/
-├── index.php
+├── admin/          # Admin dashboard files
+├── includes/       # Config and helper files
+├── user/           # User-specific pages
+├── css/            # Stylesheets
+├── js/             # JavaScript scripts
+├── images/         # Static assets
+├── index.php       # Landing page
 └── ...
+⚙️ Installation & Setup
 
-yaml
-Copy
-Edit
+Clone the Repository
 
----
+git clone https://github.com/AswinK06/Tourism-Management-System.git
 
-## 🚀 Getting Started
+   Import Database
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/AswinK06/Tourism-Management-System.git
-Import the database
+   Open phpMyAdmin.
 
-Locate the tourism.sql file (if available) and import it into your MySQL server using phpMyAdmin or the MySQL CLI.
+   Create a database (e.g., wanderluxe).
 
-Configure the database
+   Import the provided .sql file.
 
-Open includes/config.php and update the database credentials as per your local setup.
+   Configure Database Connection
 
-Run the project
+   Open includes/config.php.
 
-Use XAMPP, WAMP, or any local PHP server.
+Update with your credentials:
 
-Place the project folder inside the htdocs directory (for XAMPP).
+   define('DB_HOST','localhost');
+   define('DB_USER','root');
+   define('DB_PASS','your_password');
+   define('DB_NAME','wanderluxe');
 
-Start Apache and MySQL from the control panel.
+Run the Project
 
-Navigate to http://localhost/Tourism-Management-System in your browser.
+   Place the project folder inside htdocs (XAMPP).
 
-📸 Screenshots
-(Add screenshots here for homepage, booking form, and admin panel views)
+   Start Apache and MySQL from XAMPP Control Panel.
+
+Open in browser:
+
+   http://localhost/Tourism-Management-System/
 
 🔮 Future Enhancements
-📱 Add mobile app version
 
-💬 Integrate live chat support
+   📱 Mobile app version.
 
-🌐 Multilingual support (Tamil, Hindi, etc.)
+   💬 Live chat support.
 
-📊 Analytics dashboard for admin
+   🌐 Multilingual support (Tamil, Hindi, etc.).
+
+   📊 Analytics dashboard for admin.
 
 🙋‍♂️ Author
-Aswin K
-🎓 BE Computer Science Engineering
+
+   Aswin K
+   🎓 BE Computer Science Engineering
